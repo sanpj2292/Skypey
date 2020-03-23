@@ -5,7 +5,6 @@ import store from "../store";
 import { setActiveUserId } from "../actions";
 
 function handleUserClick({ user_id }) {
-    console.log(user_id);
     store.dispatch(setActiveUserId(user_id))
 };
 
