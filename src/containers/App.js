@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Main from "./main";
-import Sidebar from "./sidebar";
+import Main from "../components/main";
+import Sidebar from "../components/sidebar";
 
-import store from "./store";
+import store from "../store";
 import _ from 'lodash';
 
 function App() {
