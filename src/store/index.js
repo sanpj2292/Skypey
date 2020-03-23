@@ -3,6 +3,6 @@ import { contacts } from "../static-data";
 
 import reducer from "../reducers";
 
-const store = createStore(reducer, { contacts });
+const store = createStore(reducer);
 
 export default store;
